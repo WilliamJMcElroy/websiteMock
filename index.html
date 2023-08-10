@@ -40,21 +40,32 @@
         </div>
     </section>
 
+
+    <!-- NOTE something is wrong here. the pictures aren't displaying in the center of their fields. 
+    
+    is within container? yes
+    perhaps too many conflicting classes
+    perhaps not applying class to right section/div/object
+    have looked at it for a while
+    have read bootstrap some
+-->
     <section class="row greyFill justify-content-center align-items-center">
         <div class="col-12 col-md-6">
             <p class="lottaWords">words words words yes indeed lots of words so many words you know what's gonna happen
-                next? more words. so many words. talk talk talk words. <span><button>I sure do like words</button>
-                </span></p>
+                next? more words. so many words. talk talk talk words. lexicon. so many little tid bits. words.
+                <span><button>I sure do like words</button>
+                </span>
+            </p>
         </div>
     </section>
-    <section class="row justify-content-around align-items-center">
+    <section class="row justify-content-even align-items-center">
         <div class="col p-2">
             <img class="img-fluid background-size-cover"
                 src="https://images.unsplash.com/photo-1509070016581-915335454d19?tixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1170&q=80"
                 alt="Look at this leaf, dang its nice">
         </div>
-        <div class="col p-2">
-            <img class="img-fluid background-size-cover pt-2 align-items-center"
+        <div class="col p-2 justify-content align-items-center">
+            <img class="img-fluid background-size-cover pt-2 justify-content align-items-center"
                 src="https://images.unsplash.com/photo-1604006255345-a552f7ad5969?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=387&q=80"
                 alt="Look at this tree, it looks scary and lonely">
         </div>
@@ -66,22 +77,23 @@
     </section>
     <section class="row justify-content-around ">
         <div class="col pb-2">look at this Leaf!</div>
-        <div class="col pb-2">OOH that's a tree alright</div>
+        <div class="col pb-2 justify-content-even">OOH that's a tree alright</div>
         <div class="col pb-2">Their refined blood is amazing on pancakes</div>
     </section>
 </body>
 
 <footer class="container-fluid">
     <section class="row text-end text-white align-items-center">
-        <div class="col-2">Jobs</div>
-        <div class="col-2">Store</div>
-        <div class="col-2">Twitter</div>
-        <div class="col-2">Facebook</div>
-        <div class="col-2">
+        <div class="col-1 justify-content-left">Jobs</div>
+        <div class="col-1 justify-content-left">Store</div>
+        <div class="col-1 justify-content-left">Twitter</div>
+        <div class="col-1 justify-content-left">Facebook</div>
+        <div class="col-4"></div>
+        <div class="col-2 justify-content-right">
             <p>(555)555-5555</p>
             <p>This is my real number</p>
         </div>
-        <div class="col-2">
+        <div class="col-2 justify-content-right">
             <p>123 Real-place Ln</p>
             <p>Real-City, Real-State</p>
         </div>
