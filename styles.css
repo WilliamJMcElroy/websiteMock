@@ -36,6 +36,11 @@ body {
     height: 300px
 }
 
+.greyFillLite {
+    background-color: rgb(84, 81, 81);
+    height: 200px;
+}
+
 .background-size-cover {
     height: 190px;
     object-fit: cover;
