@@ -41,6 +41,11 @@ body {
     height: 200px;
 }
 
+.blackLine {
+    background-color: black;
+    color: rgb(199, 205, 150);
+}
+
 .background-size-cover {
     height: 190px;
     object-fit: cover;

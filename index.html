@@ -11,10 +11,10 @@
 </head>
 <header class="container-fluid">
     <section class="row">
-        <div class="col-6">
-            <img class="small-logo"
-                src="https://banner2.cleanpng.com/20180419/diq/kisspng-circle-7-logo-icon-round-logo-design-5ad87fd2ef99a9.8005067015241379389814.jpg"
-                alt="logo">
+        <img class="col-6">
+        <img class="small-logo"
+            src="https://banner2.cleanpng.com/20180419/diq/kisspng-circle-7-logo-icon-round-logo-design-5ad87fd2ef99a9.8005067015241379389814.jpg"
+            alt="logo"></img>
         </div>
         <div class="col-6 justify-content-center text-end p-3">
             <button>Work</button>
@@ -33,9 +33,10 @@
             <h1 class="hero-Title">Crown Maple Syrup</h1>
             <p class="hero-Belowline">Not All Crowns Are Created Equal</p>
         </div>
-        <img class="col-5"
-            src="https://images.unsplash.com/photo-1634247032261-d969fc62c30a?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=387&q=80"
-            alt="look at that delicious syrup"></img>
+        <div class="col-5">
+            <img src="https://images.unsplash.com/photo-1634247032261-d969fc62c30a?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=387&q=80"
+                alt="look at that delicious syrup">
+            </img>
         </div>
     </section>
 
@@ -48,37 +49,52 @@
     have looked at it for a while
     have read bootstrap some
     DID I VIOLATE STRUCTURE?
+
+    side-note any way to make the button have angle brackets on the top and bottom by messing w border or something? 
+
+    something like >___TEXT_INSIDE> 
+
+    fix-notes
+
+    applied class to div rather than img tags
+    closed img tags
+
 -->
     <section class="row greyFill justify-content-center align-items-center">
         <div class="col-12 col-md-6">
             <p class="lottaWords">words words words yes indeed lots of words so many words you know what's gonna happen
                 next? more words. so many words. talk talk talk words. lexicon. so many little tid bits. words.
-                <span><button>I sure do like words</button>
+                <span>
+                    <button>I sure do like words</button>
                 </span>
             </p>
         </div>
     </section>
     <section class="row greyFillLite justify-content-even align-items-center">
-        <img class="col p-2">
-        <img class="img-fluid background-size-cover"
-            src="https://images.unsplash.com/photo-1509070016581-915335454d19?tixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1170&q=80"
-            alt="Look at this leaf, dang its nice"></img>
+        <div class="col-3 p-2">
+            <img class="img-fluid background-size-cover"
+                src="https://images.unsplash.com/photo-1509070016581-915335454d19?tixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1170&q=80"
+                alt="Look at this leaf, dang its nice">
         </div>
-        <img class="col p-2 justify-content align-items-center">
-        <img class="img-fluid background-size-cover pt-2 justify-content align-items-center"
-            src="https://images.unsplash.com/photo-1604006255345-a552f7ad5969?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=387&q=80"
-            alt="Look at this tree, it looks scary and lonely"></img>
+        <div class="col-3 p-2">
+            <img class="img-fluid pt-2 background-size-cover"
+                src="https://images.unsplash.com/photo-1604006255345-a552f7ad5969?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=387&q=80"
+                alt="Look at this tree, it looks scary and lonely">
         </div>
-        <img class="col p-2">
-        <img class="img-fluid background-size-cover"
-            src="https://th.bing.com/th/id/R.c6e5a99877aef8c2111aa6b021edc909?rik=051I6xqRnle6tA&pid=ImgRaw&r=0"
-            alt="another jar of maple syrup"></img>
+        </div>
+        </div>
+        </div>
+        <div class="col-3 p-2">
+            <img class="img-fluid background-size-cover"
+                src="https://th.bing.com/th/id/R.c6e5a99877aef8c2111aa6b021edc909?rik=051I6xqRnle6tA&pid=ImgRaw&r=0"
+                alt="another jar of maple syrup">
+            </img>
         </div>
     </section>
-    <section class="row justify-content-around ">
-        <div class="col pb-2">look at this Leaf!</div>
-        <div class="col pb-2 justify-content-even">OOH that's a tree alright</div>
-        <div class="col pb-2">Their refined blood is amazing on pancakes</div>
+    <section class="row justify-content-center blackLine">
+        <div class="col-3 pb-2 text-align-center">look at this Leaf!</div>
+        <div class="col-3 pb-2 text-align-center">OOH that's a tree alright</div>
+        <div class="col-3 pb-2 text-align-center">Their refined blood is amazing on pancakes</div>
     </section>
 </body>
 
