@@ -11,7 +11,7 @@ body {
 
 #woodPanel {
     background-image: url("https://images.unsplash.com/photo-1525947088131-b701cd0f6dc3?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1170&q=80");
-    height: 700px;
+    height: 650px;
     background-size: cover;
 }
 
@@ -33,7 +33,11 @@ body {
 
 .greyFill {
     background-color: rgb(53, 53, 53);
-    height: 300px
+    height: 300px;
+}
+
+.font-black {
+    color: #16161d;
 }
 
 .greyFillLite {
